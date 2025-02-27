@@ -1,5 +1,5 @@
 # ImageChain
-This repository is associated with the research paper titled ImageChain: Advancing Sequential Image-to-Text Reasoning in Multimodal Large Language Models
+This repository is associated with the research paper titled ImageChain: [Advancing Sequential Image-to-Text Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2502.19409)
 
 ## StoryFrames Dataset
 The StoryFrames dataset is [available on Hugging Face](https://huggingface.co/datasets/ingoziegler/StoryFrames).

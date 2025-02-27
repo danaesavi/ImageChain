@@ -1,9 +1,7 @@
 # ImageChain
 This repository is associated with the research paper [ImageChain: Advancing Sequential Image-to-Text Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2502.19409)
 
-Danae Sánchez Villegas, Ingo Ziegler and Desmond Elliott *ImageChain: Advancing Sequential Image-to-Text Reasoning in Multimodal Large Language Models*.  
-[arXiv:2502.19409](https://arxiv.org/abs/2502.19409) 
-
+Danae Sánchez Villegas, Ingo Ziegler and Desmond Elliott *ImageChain: Advancing Sequential Image-to-Text Reasoning in Multimodal Large Language Models*.
 ## StoryFrames Dataset
 The StoryFrames dataset is [available on Hugging Face](https://huggingface.co/datasets/ingoziegler/StoryFrames).
 

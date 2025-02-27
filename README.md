@@ -18,3 +18,32 @@ ds_3 = ds.filter(lambda sample: sample["num_scenes"] == 3)
 ```
 
 The dataset is described in detail [here](https://huggingface.co/datasets/ingoziegler/StoryFrames#what-is-a-story-in-storyframes) and features a specific feature description [here](https://huggingface.co/datasets/ingoziegler/StoryFrames#detailed-field-descriptions).
+
+# Code
+
+This repo contains modified scripts of [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT).  
+
+## Installation  
+
+1. **Set up LLaVA-NeXT**  
+   Follow the official [LLaVA-NeXT installation guide](https://github.com/LLaVA-VL/LLaVA-NeXT).  
+
+2. **Replace Files**  
+   Clone this repo and copy the modified files into your LLaVA-NeXT directory:  
+   ```bash
+   git clone https://github.com/danaesavi/ImageChain.git
+   cp -r ImageChain/src/llava/* LLaVA-NeXT/llava/
+   ```
+   Modified Files
+   ```bash
+   └── llava
+    ├── constants.py
+    ├── conversation.py
+    ├── mm_utils.py
+    ├── model/
+    │   ├── builder.py
+    │   ├── language_model/llava_llama.py
+    │   └── llava_arch.py
+    └── train/train.py
+    ```
+
